@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MAIGO LANAO DEL NORTE</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="about.html" class="logo"><i class="fas fa-map-marker-alt"></i>MAIGO LANAO DEL NORTE</a>
+      <div class="nav-links">
+        <ul>
+          <li><a href="home.html"><i class="fas fa-home"></i> Home</a></li>
+          <li><a href="about.html"><i class="fas fa-info-circle"></i> About</a></li>
+          <li><a href="event.html"><i class="fas fa-compass"></i> Event</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-images">
+      <img src="https://scontent.fcgy2-1.fna.fbcdn.net/v/t39.30808-6/481996277_1317465989522647_1915713326791867592_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeH-Jwt78EF9_YHsrRW0r8uX123KzrvD19nXbcrOu8PX2V7Ex9YySTbxZQxt97SJTDMRxxu9gIkkgUe6ZMlmdzDw&_nc_ohc=ka_XnoPIW-kQ7kNvgFzT4aR&_nc_oc=AdgiXMp-iRrrNQL7-5drUbJCW_DtVBitSatTt_mn6fMY3iO5wbfQlKIzcWKx6n3JUo8&_nc_zt=23&_nc_ht=scontent.fcgy2-1.fna&_nc_gid=AS6T_P7soP1jzSkgtnkf7eU&oh=00_AYDdGu2rua8pdBd5-DZWis_wI6j7RmBJ7HzDu51BQC7_SA&oe=67C5F04B" alt="Municipality of Maigo">
+      <img src="https://scontent.fcgy2-2.fna.fbcdn.net/v/t39.30808-6/480628542_1317466009522645_7657004515830569511_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHyy0CklaFKiZLFraqvp394JfIXDLhDN7Ql8hcMuEM3tKshoD2XZg_mwxf6CIYjkFDr2Rz1YAyKLhIitdLfZFS9&_nc_ohc=ZTT88vQ0eVkQ7kNvgEsAo3w&_nc_oc=AdjdOrUtZ34cLpvrs4lAeGkP0rGV79vYsOTjAhaBTbMgGCqu4ItOY0wjJ4Qy_uVmemc&_nc_zt=23&_nc_ht=scontent.fcgy2-2.fna&_nc_gid=AvYNjM7IMQvZa8Ugl6SK1jD&oh=00_AYDDxXsWGudo339yihkl1m15g2j2wuYnBYN4N1in_H0t9A&oe=67C5EAC6" alt="Municipality of Maigo">
+    </div>
+
+    <div class="hero-content">
+      <h1>WELCOME TO MAIGO LANAO DEL NORTE</h1>
+      <p>Maigo is a coastal municipality in the province of Lanao del Norte, located in Northern Mindanao, Philippines.  
+        It is a small but charming town known for its pristine beaches, rich agricultural lands, and diverse culture.The municipality has a land area of 121.45 square kilometers or 46.89 square miles which constitutes 3.62% of Lanao del Norte's total area. Its population as determined by the 2020 Census was 23,337. This represented 3.23% of the total population of Lanao del Norte province, or 0.46% of the overall population of the Northern Mindanao region. Based on these figures, the population density is computed at 192 inhabitants per square kilometer or 498 inhabitants per square mile.
+      </p>
+    </div>
+  </section>
+</body>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #3a5d9a;
+    color: #655e8c;
+    line-height: 1.8;
+    min-height: 100vh;
+  }
+
+  header {
+    background-color: rgba(42, 26, 82, 0.95);
+    padding: 1rem 0.5rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.15);
+  }
+
+  nav {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    font-size: 1.9rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: #a49de4;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: transform 0.3s ease;
+  }
+
+  .logo:hover {
+    transform: scale(1.1) rotate(-2deg);
+  }
+
+  .logo span {
+    color: #918bc2;
+  }
+
+  .nav-links ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    background: rgba(122, 150, 220, 0.1);
+    padding: 0.4rem 1rem;
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 8px rgba(47, 84, 121, 0.1);
+  }
+
+  .nav-links li a {
+    color: #3f84b5;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.4rem 0.9rem;
+    border-radius: 20px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+
+  .nav-links li a:hover {
+    background-color: #5353d2;
+    color: #fff;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    padding: 120px 40px 60px;
+    min-height: calc(100vh - 110px);
+    background-color: #62548d;
+    flex-wrap: wrap;
+  }
+
+  .hero-content {
+    flex: 1;
+    max-width: 45%;
+    background-color: #4185b9;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    animation: fadeInUp 0.8s ease;
+  }
+
+  .hero-content h1 {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+    color: #264386;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .hero-content p {
+    font-size: 1.15rem;
+    color: #3c319f;
+  }
+
+  .hero-images {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .hero-images img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    filter: brightness(1.1) saturate(1.2) contrast(1.05);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+
+  .hero-images img:hover {
+    transform: scale(1.08);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  }
+
+  @keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @media (max-width: 768px) {
+    .hero {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .hero-content, .hero-images {
+      max-width: 100%;
+      width: 100%;
+    }
+
+    .hero-content h1 {
+      font-size: 2rem;
+    }
+
+    .hero-content p {
+      font-size: 1rem;
+    }
+
+    .hero-images img {
+      max-width: 95%;
+    }
+  }
+</style>
+</html>

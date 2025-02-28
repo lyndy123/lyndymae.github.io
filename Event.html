@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MAIGO LANAO DEL NORTE</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="event.html" class="logo"><i class="fas fa-map-marker-alt"></i>MAIGO LANAO DEL NORTE</a>
+      <div class="nav-links">
+        <ul>
+          <li><a href="home.html"><i class="fas fa-home"></i> Home</a></li>
+          <li><a href="about.html"><i class="fas fa-info-circle"></i> About</a></li>
+          <li><a href="event.html"><i class="fas fa-compass"></i> Event</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section class="contact-section" id="contact">
+    <div class="event-card">
+      <img src="https://tse1.mm.bing.net/th?id=OIP.rLzvoBmK8O1DNN9G_V2UJwAAAA&w=397&h=397&c=7" alt="65th Araw ng Maigo & 14th Nangkaan Festival">
+      <h3> 14th Nangkaan Festival</h3>
+      <p>The 65th Araw ng Maigo and 14th Nangkaan Festival were grand celebrations in Maigo, Lanao del Norte, showcasing the town’s history, culture, and agricultural heritage. These events highlight Maigo’s progress, unity, and vibrant traditions..</p>
+    </div>
+
+    <div class="event-card">
+      <img src="https://tse1.mm.bing.net/th?id=OIP.sL3vuTjw6R3SdaFqtEa4GAHaE8&w=316&h=316&c=7" alt="Gini-akan Festival Participation">
+      <h3>52th Araw ng maigo</h3>
+      <p>howcasing the town’s history, culture, and agricultural heritage. These events highlight Maigo’s progress, unity, and vibrant traditions..</p>
+    </div>
+  </section>
+</body>
+<style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #6a7baf;
+      color: #4b499b;
+      line-height: 1.8;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: rgba(35, 62, 126, 0.95);
+      padding: 1rem 0.5rem;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 15px rgba(0, 0, 0, 0.15);
+    }
+
+    nav {
+      width: 90%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 1.9rem;
+      font-weight: 700;
+      text-decoration: none;
+      color: #9792d4;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      transition: transform 0.3s ease;
+    }
+
+    .logo:hover {
+      transform: scale(1.1) rotate(-2deg);
+    }
+
+    .logo span {
+      color: #1e2d4e;
+    }
+
+    .nav-links ul {
+      display: flex;
+      gap: 1rem;
+      list-style: none;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 0.4rem 1rem;
+      border-radius: 30px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-links li a {
+      color: #000e75;
+      text-decoration: none;
+      font-size: 1rem;
+      padding: 0.4rem 0.9rem;
+      border-radius: 20px;
+      font-weight: 500;
+      transition: all 0.3s ease;
+    }
+
+    .nav-links li a:hover {
+      background-color: #5981cd;
+      color: #fff;
+      transform: translateY(-3px);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .contact-section {
+      padding: 140px 20px 80px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 2.5rem;
+      max-width: 1200px;
+      margin: 0 auto;
+      align-items: start;
+    }
+
+    .event-card {
+      background-color: #82c3e6;
+      padding: 2rem 1.5rem;
+      border-radius: 20px;
+      box-shadow: 0 6px 18px rgba(60, 93, 168, 0.15);
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .event-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    }
+
+    .event-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 15px;
+      margin-bottom: 1rem;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .event-card h3 {
+      font-size: 1.4rem;
+      color: #547dc9;
+      margin-bottom: 0.5rem;
+    }
+
+    .event-card p {
+      font-size: 1.05rem;
+      color: #375182;
+      text-align: justify;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 768px) {
+      .event-card img {
+        height: 160px;
+      }
+
+      .event-card h3 {
+        font-size: 1.3rem;
+      }
+
+      .event-card p {
+        font-size: 0.95rem;
+      }
+    }
+  </style>
+</html>
